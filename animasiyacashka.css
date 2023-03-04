@@ -1,0 +1,145 @@
+/* FINCANDAN TUSTU CIXMASI ANIMASIYASI 1 */
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.steam {
+
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b8b7b1;
+    border-radius: 30%;
+    animation: steam 2s infinite;
+    z-index: -1;
+}
+
+.picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes steam {
+    from{
+        transform: translateY(96px) scale(1);
+        opacity: 1;
+
+    }
+to{
+    transform: translateY(0px)scale(0);
+    opacity: 0;
+}
+} 
+
+
+
+/* FINCANDAN TUSTU CIXMASI ANIMASIYASI 2 */
+
+/*body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arxafon {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.fincan {
+    width: 180px;
+    height: 255px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tutacaq {
+    width: 15px;
+    height: 145px;
+    transform: translateX(141px);
+    position: relative;
+    background-color: blanchedalmond;
+}
+
+.tutacaq::after {
+    content: '';
+    position: absolute;
+    width: 110px;
+    height: 15px;
+    background-color: blanchedalmond;
+    right: 0;
+    top: 0;
+}
+
+.tutacaq::before {
+    content: '';
+    position: absolute;
+    width: 110px;
+    height: 15px;
+    background-color: blanchedalmond;
+    right: 0;
+    bottom: 0;
+}
+
+.tustu{
+    width: 100px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: #bbbbbb;
+    animation: tustuanimasiyasi 2s ;
+}
+
+@keyframes tustuanimasiyasi {
+    0%{
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-100px) scale(0);
+        opacity: 0;
+    }
+}*/
